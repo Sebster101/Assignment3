@@ -124,6 +124,8 @@ bool Runner::InputFile(string name){
 				noError = false;
 				int lineReport = CBline.pop();
 				cout << "Error on line "<< lineReport << " Expected }" << endl;
+			} else {
+				cout << "No errors found" << endl;
 			}
 		}
 
