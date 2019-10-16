@@ -6,7 +6,7 @@ public:
 	Runner ();
 	~Runner();
 	bool InputFile(string name);
-	void readFile();
+	void Reset();
 
 	string fileName;
 	int size;

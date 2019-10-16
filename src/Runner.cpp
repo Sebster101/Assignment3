@@ -134,3 +134,23 @@ bool Runner::InputFile(string name){
 		cout << "File not Found" << endl;
 	}
 }
+void Runner::Reset(){
+	while (!P.isEmpty()){
+		P.pop();
+	}
+	while (!B.isEmpty()){
+		B.pop();
+	}
+	while (!CB.isEmpty()){
+		CB.pop();
+	}
+	while (!Pline.isEmpty()){
+		Pline.pop();
+	}
+	while (!Bline.isEmpty()){
+		Bline.pop();
+	}
+	while (!CBline.isEmpty()){
+		CBline.pop();
+	}
+}

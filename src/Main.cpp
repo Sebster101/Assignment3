@@ -22,7 +22,8 @@ int main(int argc, char const *argv[])
 			break;
 			isRunning = false;
 		} else if (decider == 'y' || decider == 'Y'){
-
+			r.Reset();
+			isRunning = true;
 		} else {
 			cout << "Invalid input" << endl;
 		}
